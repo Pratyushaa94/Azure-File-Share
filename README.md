@@ -56,7 +56,7 @@ file_share_quota      = 10
 terraform init
 ```
 
-### 5. Review the Execution Plan
+### 5.Review the Execution Plan
 
 ```powershell
 terraform plan
