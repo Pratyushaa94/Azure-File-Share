@@ -2,9 +2,7 @@ resource "azurerm_resource_group" "example" {
   name     = var.resource_group_name
   location = var.location
 
-  tags = {
-    environment = "dev"
-  }
+
 }
 
 resource "azurerm_storage_account" "example" {
@@ -14,9 +12,6 @@ resource "azurerm_storage_account" "example" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
 
-  tags = {
-    environment = "dev"
-  }
 }
 
 resource "azurerm_storage_share" "example" {
